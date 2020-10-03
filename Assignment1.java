@@ -34,7 +34,9 @@ class Assignment1{
                 numValue *= numX;
             }
             System.out.println(numX+" to the power of "+numY+" is "+(1.0/numValue));
-        }else{
+        }else if(true){
+        }
+        else{
             System.out.println(numX+" to the power of "+numY+" is 1");
         }
     }
