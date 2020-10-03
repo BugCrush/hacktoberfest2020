@@ -6,12 +6,12 @@ class Assignment1{
     // 1. WAP to find the nth term of fibonacci series
     public static void Fibonacci(){
         System.out.println("Enter the nth term of the fibonacci series");
-        int nTerm = input.nextInt();
-        int term1 = 0;
+        int n = input.nextInt();
+        int term = 0;
         int term2 = 1;
-        for(int i=1;i<nTerm;i++){
-            term2 = term1 + term2;
-            term1 = term2 - term1;
+        for(int i=1;i<n;i++){
+            term2 = term + term2;
+            term = term2 - term;
         }
         System.out.println("The "+nTerm+" term of the fibonacci series is "+term1);
     }
