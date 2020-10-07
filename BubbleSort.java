@@ -1,7 +1,12 @@
 public class BubbleSort {
 	public static void main(String[] args) {  
-                int arr[] ={3,60,35,2,45,320,5};  
-                 
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of elements in an array");
+		int n = input.parseInt();
+		int[] arr = new int[];
+		for(int i=0;i<n;i++){
+			arr[i] = intput.parseInt();
+		}
                 System.out.println("Array Before Bubble Sort");  
                 for(int i=0; i < arr.length; i++){  
                         System.out.print(arr[i] + " ");  
